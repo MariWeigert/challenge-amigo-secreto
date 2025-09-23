@@ -8,7 +8,7 @@ function adicionarAmigo() {
     const nomeAmigo = nomeAmigoTela.value.trim();
 
     if(nomeAmigo == "") {
-        alert("Por favor insira o nome!");
+        alert("Por favor, insira um nome!");
         return;
     }
 
@@ -26,7 +26,7 @@ function adicionarAmigo() {
 
 function sortearAmigo() {
     if(listaAmigos.length == 0) {
-        alert("Por favor insira pelo menos um nome!");
+        alert("Por favor,insira pelo menos um nome!");
         return;
     }
 
